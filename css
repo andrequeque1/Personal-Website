@@ -1,0 +1,87 @@
+/* Style the navigation menu */
+.topnav {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+body {
+  background-color: #000000;
+background-image: linear-gradient(45deg, #000000 0%, #403c3c 55%, #656363 100%);
+  color: white;
+  font-family: roboto;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p{
+  font-size: 25px;
+}
+#about-me {
+  height: 500px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#welcome-section{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#projects {
+  height:500px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#copyright
+{
+  margin-top: 200px;
+}
